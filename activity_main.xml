@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:ignore="ExtraText">
+
+
+    <com.xuexiang.xui.widget.actionbar.TitleBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/xui_config_color_titlebar"
+        app:tb_barHeight="65dp"
+        app:tb_dividerColor="@color/xui_config_color_red"
+        app:tb_leftImageResource="@drawable/xui_ic_return_back"
+        app:tb_leftText="  回退"
+        app:tb_sideTextPadding="30dp"
+        app:tb_actionPadding="30dp"
+        app:tb_subTitleText="主界面"
+        app:tb_titleText="地铁线路图" />
+
+
+
+
+
+
+    <com.xuexiang.xui.widget.edittext.ClearEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Type here"
+        app:cet_clearIcon="@drawable/xui_ic_default_clear_btn"
+        app:cet_clearIconSize="20dp"/>
+
+
+
+
+
+
+
+
+</android.support.v7.widget.LinearLayoutCompat>
